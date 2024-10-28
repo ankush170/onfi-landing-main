@@ -12,6 +12,7 @@ import DeployedSecurely from "@/components/landing/DeployedSecurely";
 import OurBlog from "@/components/landing/OurBlog";
 import Footer from "@/components/landing/Footer";
 import Certifications from "@/components/landing/Certifications";
+import SupportedRegulators from "@/components/landing/SupportedRegulators";
 
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
 
       <div id="neogpt" className="w-full">
         <NeoGPTSection />
+        <SupportedRegulators />
       </div>
 
       <div className="w-full">
