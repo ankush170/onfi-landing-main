@@ -7,9 +7,9 @@ const HeroSection = () => {
   return (
     <div className='hero-background justify-between lg:justify-start w-full flex flex-col items-center pt-32 lg:pt-40 pb-20 lg:pb-4'>
       <div className='flex flex-col items-center'>
-        <div className='space-grotesk-bold text-[32px] leading-10 sm:text-[36px] sm:leading-[44px] md:text-[42px] md:leading-[50px] lg:text-[52px] lg:leading-[62px] mb-10 md:mb-[13px] custom-text-gradient text-center px-6'>
+        <h1 className='space-grotesk-bold text-[32px] leading-10 sm:text-[36px] sm:leading-[44px] md:text-[42px] md:leading-[50px] lg:text-[52px] lg:leading-[62px] mb-10 md:mb-[13px] custom-text-gradient text-center px-6'>
           Explainable AI Agents for financial services
-        </div>
+        </h1>
         <div className='text-base md:text-lg dm-sans-regular text-[#505050] mb-8 md:mb-[26px] px-10 text-center'>
           Get verifiable and controllable responses from LLMs on financial documents like regulatory circulars.
         </div>
