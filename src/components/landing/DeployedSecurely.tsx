@@ -156,9 +156,9 @@ const DeployedSecurely = () => {
     const isVisible = useIsVisible(refEl);
     return (
         <div ref={refEl} className={`section-inner-shadow flex flex-col items-center overflow-hidden w-full pb-0 pt-[91px] lg:pb-[91px] transition-all ease-in duration-500 ${isVisible ? "translate-y-0" : "translate-y-20"}`}>
-            <div className='poppins-semibold text-[32px] leading-[42px] sm:text-[36px] sm:leading-[48px] md:text-[48px] md:leading-[56px] lg:text-[64px] px-8 sm:px-10 custom-text-gradient text-center lg:leading-[84px] mb-0 xl:mb-[70px]'>
-            Deployed securely on your premises
-            </div>
+            <h1 className='poppins-semibold text-[32px] leading-[42px] sm:text-[36px] sm:leading-[48px] md:text-[48px] md:leading-[56px] lg:text-[64px] px-8 sm:px-10 custom-text-gradient text-center lg:leading-[84px] mb-0 xl:mb-[70px]'>
+                Deployed securely on your premises
+            </h1>
             <div className='w-full flex h-[50rem] items-center justify-center -my-40  sm:-my-32 md:-my-20 lg:-my-10 xl:my-0 scale-[0.4] sm:scale-50 md:scale-[0.60] lg:scale-75 xl:scale-100'>
                 <DeploySide data={uiData[cardOrders[current][0]]} setCurrent={setCurrent} />
                 <DeployCenter data={uiData[cardOrders[current][1]]} setCurrent={setCurrent} />
