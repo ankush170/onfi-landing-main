@@ -22,14 +22,15 @@ const HeroSection = () => {
             Watch Demo
           </a>
           <a 
-            href='#contact' 
+            href='https://calendly.com/anujonfinance' 
+            target="_blank"
             className='border-2 border-[#6355D8] rounded-[4.5px] text-base text-[#6355D8] exo-2-bold px-[52px] py-3 md:py-4 hover:bg-[#6355D8] hover:text-white transition-all duration-300'
           >
             Schedule Demo
           </a>
         </div>
       </div>
-      <div className='relative hidden md:block w-[99%] md:w-[80%] lg:w-[65%] h-fit mt-8 md:mt-12 mr-6'>
+      <div className='relative hidden md:block w-[99%] md:w-[80%] lg:w-[65%] h-fit mt-8 md:mt-12 mr-12 ml-[-40px]'>
         <Image src={HERO2} alt='hero-image' className='object-cover' />
       </div>
     </div>
