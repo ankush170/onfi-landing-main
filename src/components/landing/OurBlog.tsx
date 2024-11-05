@@ -1,9 +1,9 @@
 import React,{useRef} from 'react'
 import { useIsVisible } from './useIsVisible'
 import Image,{StaticImageData} from 'next/image'
-import Blog1Img from "@/assets/landing/Blog1.png"
-import Blog2Img from "@/assets/landing/Blog2.png"
-import Blog3Img from "@/assets/landing/Blog3.png"
+import Blog1Img from "@/assets/landing/Blog4.png"
+import Blog2Img from "@/assets/landing/Blog5.png"
+import Blog3Img from "@/assets/landing/Blog6.png"
 
 import ArrowRightIcon from '@/assets/icons/right-arrow.svg'
 
