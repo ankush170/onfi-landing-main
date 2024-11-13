@@ -33,7 +33,7 @@ export default function Home() {
       </div>
 
       <div className="w-full">
-        <WorksWith />
+        {/* <WorksWith /> */}
         <Certifications />
       </div>
 
